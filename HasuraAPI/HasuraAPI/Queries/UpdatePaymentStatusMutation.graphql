@@ -1,0 +1,8 @@
+mutation UpdatePaymentStatus($paymentId: Int!, $status: String) {
+  update_payments_by_pk(
+    pk_columns: {id: $paymentId},
+    _set: {status: $status}) {
+    id,
+    status
+  }
+}

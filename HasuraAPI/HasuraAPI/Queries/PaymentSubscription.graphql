@@ -1,0 +1,11 @@
+subscription GetLatestPayment {
+    payments(limit: 1, order_by: {created_at: desc}) {
+        amount
+        created_at
+        description
+        recipient_id
+        sender_id
+        status
+        id
+        }
+    }
