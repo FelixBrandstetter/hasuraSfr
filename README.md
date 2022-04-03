@@ -1,5 +1,7 @@
 # Hasura Sfr Assignment
 ## Hasura GraphQl
+Hinweis: Die PostgreSQL Datenbank wurde direkt im Hasura Cloud Portal erstellt
+
 Der Hasura GraphQL Endpoint ist unter folgender Adresse erreichbar: https://sfrhasura.hasura.app/v1/graphql
 Die verwendeten Queries befinden sich in den jeweiligen Projekten.
 ### REST API
